@@ -5,6 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello World"
+        run: | 
+          echo "Hello World"
+          ls
       - name: Print gb
-        run : echo "Done"
+        run : | 
+          echo "Done"
+          pwd
